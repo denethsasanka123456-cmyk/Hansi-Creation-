@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hansi Creation & Hansi Fashion - Girls products, teddy bears, mosquito nets, cakes, bouquets, gift boxes and hair clips.">
+  <title>Hansi Creation & Hansi Fashion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="brand" href="#home">
+    <span class="brand-icon">♡</span>
+    <span><b>Hansi Creation</b><small>& Hansi Fashion</small></span>
+  </a>
+  <nav>
+    <a href="#home" data-si="මුල් පිටුව" data-en="Home">මුල් පිටුව</a>
+    <a href="#products" data-si="නිෂ්පාදන" data-en="Products">නිෂ්පාදන</a>
+    <a href="#about" data-si="අප ගැන" data-en="About">අප ගැන</a>
+    <a href="#contact" data-si="සම්බන්ධ වන්න" data-en="Contact">සම්බන්ධ වන්න</a>
+  </nav>
+  <div class="header-tools">
+    <label class="search-box" aria-label="Search products">
+      <span>🔎</span><input id="productSearch" type="search" placeholder="Search products..." autocomplete="off">
+    </label>
+    <button class="share-btn" id="shareBtn" type="button">↗ Share</button>
+    <button class="lang" id="langBtn">EN</button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <div class="pill">✦ For Girls • Gifts • Fashion ✦</div>
+    <h1>Hansi <span>Creation</span><br>& Hansi Fashion</h1>
+    <p class="si-text">ඔබේ ආදරණීයයන් වෙනුවෙන් ලස්සන තෑගි සහ ගැහැණු ළමුන් සඳහා විශේෂ නිෂ්පාදන එකම තැනකින්.</p>
+    <p class="en-text">Beautiful gifts and lovely products for girls, all in one place.</p>
+    <div class="hero-buttons">
+      <a class="btn primary" href="#products">🛍️ Shop Now</a>
+      <a class="btn outline" href="https://wa.me/94775822307?text=Hello%20Hansi%20Creation%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank">💬 WhatsApp Order</a>
+    </div>
+    <div class="trust">
+      <span>♡ Premium Quality</span><span>♡ Custom Orders</span><span>♡ Islandwide Orders</span>
+    </div>
+  </div>
+  <div class="hero-card">
+    <img src="images/teddy-5-5ft.jpg" alt="5½ ft Ball Teddy">
+    <div class="floating-card">🎁 <b>Perfect Gift</b><small>Made with love ♡</small></div>
+  </div>
+</section>
+
+<section class="section intro">
+  <div>
+    <p class="eyebrow">OUR COLLECTION</p>
+    <h2>ඔබට අවශ්‍ය දේ<br><span>ආදරයෙන් තෝරන්න ♡</span></h2>
+  </div>
+  <p>Hansi Creation & Hansi Fashion වෙතින් quality products සහ custom gift options ලබා ගන්න.</p>
+</section>
+
+<section id="products" class="section">
+  <div class="section-head">
+    <div><p class="eyebrow">SHOP</p><h2>Our Products</h2></div>
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="teddy">🧸 Teddy</button>
+      <button class="filter" data-filter="net">🦟 Mosquito Nets</button>
+      <button class="filter" data-filter="gift">🎁 Gifts</button>
+      <button class="filter" data-filter="fashion">🎀 Fashion</button>
+    </div>
+  </div>
+
+  <div class="grid">
+    <article class="product-card" data-category="teddy">
+      <div class="photo"><img src="images/teddy.jpg" alt="Teddy bear"><span class="tag">Popular</span></div>
+      <div class="product-body">
+        <h3>අඩි තුනහමාර බෝල ටෙඩී</h3><p>3½ ft Ball Teddy</p><strong>LKR 4,500</strong>
+        <div class="colors">රෝස • නිල් • කොල • දම් • රතු • දුඹුරු • තැඹිලි • Shaded</div>
+        <button class="order" data-product="අඩි තුනහමාර බෝල ටෙඩී - LKR 4,500">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="teddy">
+      <div class="photo"><img src="images/teddy-5-5ft.jpg" alt="5½ ft Ball Teddy"><span class="tag">Best Seller</span></div>
+      <div class="product-body">
+        <h3>අඩි පහමාර බෝල ටෙඩී</h3><p>5½ ft Ball Teddy</p><strong>LKR 11,000</strong>
+        <div class="colors">රෝස • නිල් • කොල • දම් • රතු • දුඹුරු • තැඹිලි • Shaded</div>
+        <button class="order" data-product="අඩි පහමාර බෝල ටෙඩී - LKR 11,000">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="teddy">
+      <div class="photo"><img src="images/teddy-2ft.jpg" alt="2 ft Ball Teddy"></div>
+      <div class="product-body">
+        <h3>අඩි දෙක බෝල ටෙඩී</h3><p>2 ft Ball Teddy</p><strong>LKR 2,500</strong>
+        <div class="colors">රෝස • නිල් • කොල • දම් • රතු • දුඹුරු • තැඹිලි • Shaded</div>
+        <button class="order" data-product="අඩි දෙක බෝල ටෙඩී - LKR 2,500">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="teddy">
+      <div class="photo"><img src="images/stitch-collection.jpg" alt="Stitch Teddy Collection"></div>
+      <div class="product-body">
+        <h3>Stitch Teddy Bear</h3><p>Stitch Teddy Collection</p><strong>Custom Price</strong>
+        <button class="order" data-product="Stitch Teddy Bear">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="teddy">
+      <div class="photo"><img src="images/labubu-collection.jpg" alt="Labubu Teddy Collection"></div>
+      <div class="product-body">
+        <h3>Labubu Teddy Bear</h3><p>Labubu Teddy Collection</p><strong>Custom Price</strong>
+        <button class="order" data-product="Labubu Teddy Bear">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="net">
+      <div class="photo"><img src="images/mosquito-net.jpg" alt="Mosquito net"><span class="tag">New</span></div>
+      <div class="product-body">
+        <h3>Single Mosquito Net</h3><p>Single Size</p><strong>LKR 2,200</strong>
+        <div class="colors">රෝස • නිල් • කොල • දම් වැනි වර්ණ</div>
+        <button class="order" data-product="Single Mosquito Net - LKR 2,200">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="net">
+      <div class="photo"><img src="images/mosquito-net.jpg" alt="Mosquito net"></div>
+      <div class="product-body">
+        <h3>Double Mosquito Net</h3><p>Double Size</p><strong>LKR 2,800</strong>
+        <div class="colors">රෝස • නිල් • කොල • දම් වැනි වර්ණ</div>
+        <button class="order" data-product="Double Mosquito Net - LKR 2,800">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="net">
+      <div class="photo"><img src="images/mosquito-net.jpg" alt="Mosquito net"></div>
+      <div class="product-body">
+        <h3>Triple Mosquito Net</h3><p>Triple Size</p><strong>LKR 3,500</strong>
+        <div class="colors">රෝස • නිල් • කොල • දම් වැනි වර්ණ</div>
+        <button class="order" data-product="Triple Mosquito Net - LKR 3,500">Order Now</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="gift">
+      <div class="photo"><img src="images/cake.jpg" alt="Birthday cake"></div>
+      <div class="product-body"><h3>Birthday Cakes</h3><p>Custom Designs</p><strong>Custom Prices</strong><button class="order" data-product="Birthday Cake">Order Now</button></div>
+    </article>
+
+    <article class="product-card" data-category="gift">
+      <div class="photo"><img src="images/bouquet.jpg" alt="Flower bouquet"></div>
+      <div class="product-body"><h3>Flower Bouquets</h3><p>Beautiful custom bouquets</p><strong>Custom Prices</strong><button class="order" data-product="Flower Bouquet">Order Now</button></div>
+    </article>
+
+    <article class="product-card" data-category="gift">
+      <div class="photo"><img src="images/gift-box.jpg" alt="Gift box"></div>
+      <div class="product-body"><h3>Gift Boxes</h3><p>ඔබට අවශ්‍ය පරිදි</p><strong>අවශ්‍ය පරිදි</strong><button class="order" data-product="Gift Box">Order Now</button></div>
+    </article>
+
+    <article class="product-card" data-category="fashion">
+      <div class="photo"><img src="images/hair-clips.jpg" alt="Hair clips"></div>
+      <div class="product-body"><h3>Hair Clips</h3><p>Different styles & colours</p><strong>LKR 100 / 150 / 200</strong><button class="order" data-product="Hair Clips - LKR 100 / 150 / 200">Order Now</button></div>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="about-image"><img src="images/bouquet.jpg" alt="Flower bouquet"></div>
+  <div>
+    <p class="eyebrow">WHY HANSI?</p>
+    <h2>Gifts that feel<br><span>extra special ♡</span></h2>
+    <p>ඔබේ birthday, special day එකක් හෝ ආදරණීය කෙනෙකුට surprise එකක් දෙන්න Hansi Creation & Hansi Fashion සමඟ ඔබට අවශ්‍ය gift එක තෝරාගන්න.</p>
+    <div class="features"><div>🎀 <b>For Girls</b><small>Lovely collections</small></div><div>🎁 <b>Custom Gifts</b><small>Made your way</small></div><div>💗 <b>Premium Style</b><small>Beautiful presentation</small></div></div>
+  </div>
+</section>
+
+<section class="payment-share section">
+  <div class="info-panel">
+    <p class="eyebrow">PAYMENT METHODS</p>
+    <h2>පහසු payment options 💳</h2>
+    <div class="payment-grid">
+      <div><span>🏦</span><b>Bank Transfer</b><small>Payment details ලබාගැනීමට WhatsApp කරන්න</small></div>
+      <div><span>💵</span><b>Cash on Delivery</b><small>Available where delivery service supports it</small></div>
+      <div><span>💬</span><b>WhatsApp Confirmation</b><small>Order details confirm කරගෙන payment කරන්න</small></div>
+    </div>
+  </div>
+  <div class="info-panel share-panel">
+    <p class="eyebrow">SHARE OUR STORE</p>
+    <h2>Website එක share කරන්න ♡</h2>
+    <p>යාලුවන්ට හෝ family එකට Hansi Creation website එක share කරන්න.</p>
+    <button class="share-big" id="shareBig" type="button">↗ Share Website</button>
+    <button class="copy-link" id="copyLink" type="button">🔗 Copy Website Link</button>
+    <span class="share-status" id="shareStatus" aria-live="polite"></span>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div><p class="eyebrow">GET IN TOUCH</p><h2>ඔබේ order එක අදම place කරන්න 💗</h2><p>WhatsApp හරහා direct message එකක් එවන්න.</p></div>
+  <div class="contact-actions">
+    <a class="contact-btn whatsapp" href="https://wa.me/94775822307" target="_blank">💬 WhatsApp<br><small>077 582 2307</small></a>
+    <a class="contact-btn" href="tel:0729754128">📞 Call<br><small>072 975 4128</small></a>
+    <a class="contact-btn" href="https://www.tiktok.com/@Hansicreation" target="_blank">♪ TikTok<br><small>@Hansicreation</small></a>
+    <a class="contact-btn" href="https://www.facebook.com/Hansicreation" target="_blank">f Facebook<br><small>@Hansicreation</small></a>
+  </div>
+</section>
+</main>
+
+<footer><b>Hansi Creation & Hansi Fashion</b><span>Made with ♡ for you</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
